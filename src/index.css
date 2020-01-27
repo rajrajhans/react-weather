@@ -17,20 +17,15 @@ body{
 }
 
 .App{
+  transition: 0.4s ease;
   background-image: url('./assets/cold-bg.jpg');
   -webkit-background-size: cover;
   background-size: cover;
   background-position: bottom;
-  -webkit-transition: 0.4s ease-out;
-  -moz-transition: 0.4s ease-out;
-  -ms-transition: 0.4s ease-out;
-  -o-transition: 0.4s ease-out;
-  transition: 0.4s ease-out;
   max-width: 411px;
   margin: 0 auto 0 auto;
   -webkit-box-shadow: 3px 3px 3px rgba(255,255,255,0.5);
-  -moz-box-shadow: 3px 3px 3px rgba(255,255,255
-  ,0.5);
+  -moz-box-shadow: 3px 3px 3px rgba(255,255,255,0.5);
   box-shadow: 3px 3px 3px rgba(255,255,255,0.5);
 }
 
